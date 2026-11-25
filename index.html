@@ -3,71 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Solicitud de cotización de relojes y caja con entrega en bodega Logi, Colombia.">
-  <title>Productos a cotizar</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./catalog.js" defer></script>
-  <script src="./hero.js" type="module"></script>
+  <title>Cotizaciones</title>
+  <link rel="canonical" href="./logichina/">
+  <script>
+    location.replace('./logichina/' + location.search + location.hash);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=./logichina/"></noscript>
 </head>
-<body id="inicio">
-  <a class="skip-link" href="#contenido" data-text="skip">Ir al contenido</a>
-  <header class="masthead">
-    <div class="page-width masthead-inner">
-      <a class="wordmark" href="#inicio" data-text="wordmark">Cotizaciones</a>
-      <nav class="masthead-nav" aria-label="Secciones" data-aria="nav">
-        <a href="#productos" data-text="productsLink">Productos</a>
-        <a href="#cotizacion" data-text="quoteLink">Cotización</a>
-      </nav>
-      <div class="language" role="group" aria-label="Idioma" data-aria="language">
-        <button type="button" lang="es" aria-label="Español" data-lang="es" aria-pressed="true">ES</button>
-        <button type="button" lang="zh-Hans" aria-label="简体中文" data-lang="zh-Hans" aria-pressed="false">中文</button>
-        <button type="button" lang="en" aria-label="English" data-lang="en" aria-pressed="false">EN</button>
-      </div>
-    </div>
-  </header>
-
-  <main class="page-width" id="contenido">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <h1 id="hero-title" data-text="title">Productos<br>a cotizar</h1>
-        <p class="destination" data-text="destination">Precio puesto en bodega Logi, Colombia.</p>
-        <p class="hero-intro" data-text="intro">Por favor, cotiza el precio unitario y total de cada referencia con entrega en la bodega.</p>
-        <a class="button button-primary" href="#cotizacion" data-text="seeRequest">Ver solicitud de cotización</a>
-      </div>
-      <div class="hero-showcase">
-        <div class="hero-visual">
-          <img class="hero-fallback" src="./assets/01.webp" width="840" height="840" alt="" fetchpriority="high">
-          <div class="watch-scene" data-watch-scene aria-hidden="true"></div>
-        </div>
-        <p class="scene-caption" id="scene-caption" data-text="rotate">Arrastra para girar el reloj</p>
-      </div>
-    </section>
-
-    <section class="catalog section-rule" id="productos" aria-labelledby="catalog-title">
-      <div class="section-heading">
-        <h2 id="catalog-title" data-text="productsLink">Productos</h2>
-        <p data-text="count">15 relojes · 1 caja</p>
-      </div>
-      <div class="products" id="product-grid"></div>
-      <noscript><p>Activa JavaScript para ver el catálogo y cambiar de idioma.</p></noscript>
-    </section>
-
-    <section class="request" id="cotizacion" aria-labelledby="request-title">
-      <div class="request-heading">
-        <h2 id="request-title" data-text="requestTitle">Qué necesitamos cotizar</h2>
-        <p data-text="requestIntro">Por favor, confirma estos puntos con cada proveedor.</p>
-      </div>
-      <ol class="question-list" id="question-list"></ol>
-      <div class="request-actions" hidden id="request-actions">
-        <button class="button button-inverse" type="button" id="copy-request" data-text="copy">Copiar solicitud</button>
-        <p class="copy-status" id="copy-status" aria-live="polite"></p>
-      </div>
-      <textarea class="manual-copy" id="manual-copy" hidden readonly aria-label="Solicitud de cotización" data-aria="requestLabel"></textarea>
-    </section>
-  </main>
-
-  <footer class="page-width footer">
-    <a href="#inicio" data-text="back">Volver arriba</a>
-  </footer>
+<body>
+  <a href="./logichina/">Abrir Cotizaciones</a>
 </body>
 </html>
