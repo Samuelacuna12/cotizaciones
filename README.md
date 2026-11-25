@@ -2,7 +2,7 @@
 
 Catálogo de quince relojes y una caja, con una solicitud de precio de entrega en la bodega Logi, Colombia. Disponible en español, chino simplificado e inglés.
 
-La página se publica en [`/cotizaciones/logichina/`](https://samuelacuna12.github.io/cotizaciones/logichina/).
+La página se publica en [`/cotizaciones/logichina/relojes/`](https://samuelacuna12.github.io/cotizaciones/logichina/relojes/).
 
 Funciona como un sitio estático. Para abrirla localmente, sirve esta carpeta por HTTP.
 
